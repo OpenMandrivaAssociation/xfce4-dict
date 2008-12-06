@@ -1,6 +1,6 @@
 Summary: 	A dictionary support for Xfce
 Name: 		xfce4-dict
-Version: 	0.5.1
+Version: 	0.5.2
 Release: 	%mkrel 1
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
