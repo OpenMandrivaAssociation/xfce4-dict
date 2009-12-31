@@ -1,11 +1,13 @@
+%define url_ver %(echo %{version} | cut -c 1-3)
+
 Summary: 	A dictionary support for Xfce
 Name: 		xfce4-dict
-Version: 	0.5.3
+Version: 	0.6.0
 Release: 	%mkrel 1
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-dict/
-Source0:	http://goodies.xfce.org/releases/xfce4-dict/%{name}-%{version}.tar.bz2
+Source0:	http://archive.xfce.org/src/apps/xfce4-dict/%{url_ver}/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	libxfcegui4-devel
