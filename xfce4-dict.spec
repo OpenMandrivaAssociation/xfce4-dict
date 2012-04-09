@@ -27,6 +27,7 @@ program.
 
 %prep
 %setup -q
+%patch1 -p1
 autoconf
 
 %build
