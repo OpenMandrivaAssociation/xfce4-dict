@@ -59,3 +59,59 @@ rm -rf %{buildroot}
 %{_datadir}/xfce4/panel-plugins/*.desktop
 %{_datadir}/applications/*.desktop
 %{_mandir}/man1/%{name}.*
+
+
+%changelog
+* Tue Apr 17 2012 Crispin Boylan <crisb@mandriva.org> 0.6.0-5mdv2012.0
++ Revision: 791553
+- Rebuild
+
+* Mon Apr 09 2012 Crispin Boylan <crisb@mandriva.org> 0.6.0-4
++ Revision: 790041
+- Rebuild
+
+* Wed Jan 26 2011 Tomasz Pawel Gajc <tpg@mandriva.org> 0.6.0-3
++ Revision: 633059
+- rebuild for new Xfce 4.8.0
+
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 0.6.0-2mdv2011.0
++ Revision: 615577
+- the mass rebuild of 2010.1 packages
+
+* Thu Dec 31 2009 Tomasz Pawel Gajc <tpg@mandriva.org> 0.6.0-1mdv2010.1
++ Revision: 484473
+- update to new version 0.6.0
+
+* Sat May 09 2009 Tomasz Pawel Gajc <tpg@mandriva.org> 0.5.3-1mdv2010.0
++ Revision: 373808
+- update to new version 0.5.3
+
+* Thu Mar 05 2009 Tomasz Pawel Gajc <tpg@mandriva.org> 0.5.2-2mdv2009.1
++ Revision: 349197
+- rebuild whole xfce
+
+* Sat Dec 06 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.5.2-1mdv2009.1
++ Revision: 310956
+- update to new version 0.5.2
+
+* Mon Nov 24 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.5.1-1mdv2009.1
++ Revision: 306370
+- update to new version 0.5.1
+
+* Tue Nov 11 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.5.0-1mdv2009.1
++ Revision: 302306
+- update to new version 0.5.0
+
+* Sat Oct 18 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.4.1-2mdv2009.1
++ Revision: 294945
+- rebuild for new Xfce4.6 beta1
+- update to new version 0.4.1
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild early 2009.0 package (before pixel changes)
+
+* Mon May 19 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.4.0-1mdv2009.0
++ Revision: 209076
+- add source and spec files
+- Created package structure for xfce4-dict.
+
