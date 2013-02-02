@@ -3,7 +3,7 @@
 Summary: 	A dictionary support for Xfce
 Name: 		xfce4-dict
 Version: 	0.6.0
-Release: 	%mkrel 5
+Release:	6
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-dict/
@@ -13,10 +13,10 @@ Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	libxfcegui4-devel
 BuildRequires:	perl(XML::Parser)
-Obsoletes:	xfce-dict-plugin
+Obsoletes:	xfce-dict-plugin = %{version}
 Obsoletes:	xfce4-dict-plugin < 0.4.0
-Provides:	xfce4-dict-plugin
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
+Provides:	xfce4-dict-plugin = %{version}
+
 
 %description
 This Xfce program allows you to search different kinds of dictionary
