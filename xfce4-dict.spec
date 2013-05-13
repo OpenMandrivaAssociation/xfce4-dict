@@ -11,7 +11,7 @@ Source0:	http://archive.xfce.org/src/apps/xfce4-dict/%{url_ver}/%{name}-%{versio
 Patch1:		xfce4-dict-0.6.0-gold.patch
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
-BuildRequires:	libxfcegui4-devel
+BuildRequires:	pkgconfig(libxfcegui4-1.0)
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-dict-plugin = %{version}
 Obsoletes:	xfce4-dict-plugin < 0.4.0
