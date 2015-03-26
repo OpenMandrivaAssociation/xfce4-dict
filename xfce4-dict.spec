@@ -27,11 +27,9 @@ program.
 
 %prep
 %setup -q
-%patch1 -p0
-autoconf
 
 %build
-%configure2_5x \
+%configure \
 	--disable-static
 %make
 
