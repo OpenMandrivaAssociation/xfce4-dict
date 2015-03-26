@@ -42,8 +42,8 @@ program.
 %files -f %{name}.lang
 %doc ChangeLog AUTHORS
 %{_bindir}/%{name}
-%{_libdir}/xfce4/panel-plugins/*
+%{_libdir}/xfce4/panel/plugins/*
 %{_iconsdir}/hicolor/scalable/apps/*.svg
-%{_datadir}/xfce4/panel-plugins/*.desktop
+%{_datadir}/xfce4/panel/plugins/*.desktop
 %{_datadir}/applications/*.desktop
 %{_mandir}/man1/%{name}.*
