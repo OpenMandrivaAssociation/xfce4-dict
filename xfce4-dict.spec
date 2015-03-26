@@ -12,6 +12,7 @@ Patch1:		xfce4-dict-0.6.0-gold.patch
 Requires:	xfce4-panel >= 4.10
 BuildRequires:	xfce4-panel-devel >= 4.10
 BuildRequires:	pkgconfig(libxfcegui4-1.0)
+BuildRequires:	pkgconfig(libxfce4ui-1)
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-dict-plugin = %{version}
 Obsoletes:	xfce4-dict-plugin < 0.4.0
