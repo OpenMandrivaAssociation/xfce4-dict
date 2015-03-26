@@ -3,7 +3,7 @@
 Summary: 	A dictionary support for Xfce
 Name: 		xfce4-dict
 Version: 	0.7.0
-Release:	2
+Release:	3
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-dict/
@@ -12,6 +12,7 @@ Patch1:		xfce4-dict-0.6.0-gold.patch
 Requires:	xfce4-panel >= 4.10
 BuildRequires:	xfce4-panel-devel >= 4.10
 BuildRequires:	pkgconfig(libxfcegui4-1.0)
+BuildRequires:	pkgconfig(libxfce4ui-1)
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-dict-plugin = %{version}
 Obsoletes:	xfce4-dict-plugin < 0.4.0
@@ -27,8 +28,6 @@ program.
 
 %prep
 %setup -q
-%patch1 -p0
-autoconf
 
 %build
 %configure2_5x \
@@ -43,8 +42,8 @@ autoconf
 %files -f %{name}.lang
 %doc ChangeLog AUTHORS
 %{_bindir}/%{name}
-%{_libdir}/xfce4/panel-plugins/*
+%{_libdir}/xfce4/panel/plugins/*
 %{_iconsdir}/hicolor/scalable/apps/*.svg
-%{_datadir}/xfce4/panel-plugins/*.desktop
+%{_datadir}/xfce4/panel/plugins/*.desktop
 %{_datadir}/applications/*.desktop
 %{_mandir}/man1/%{name}.*
