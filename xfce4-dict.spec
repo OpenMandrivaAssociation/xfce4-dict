@@ -1,9 +1,10 @@
-%define url_ver %(echo %{version} | cut -c 1-3)
+%define url_ver %(echo %{version} | cut -d. -f 1,2)
+%define _disable_rebuild_configure 1
 
 Summary: 	A dictionary support for Xfce
 Name: 		xfce4-dict
-Version: 	0.7.0
-Release:	3
+Version: 	0.8.0
+Release:	1
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-dict/
@@ -11,8 +12,8 @@ Source0:	http://archive.xfce.org/src/apps/xfce4-dict/%{url_ver}/%{name}-%{versio
 Patch1:		xfce4-dict-0.6.0-gold.patch
 Requires:	xfce4-panel >= 4.10
 BuildRequires:	xfce4-panel-devel >= 4.10
-BuildRequires:	pkgconfig(libxfcegui4-1.0)
-BuildRequires:	pkgconfig(libxfce4ui-1)
+BuildRequires:	pkgconfig(gtk+-3.0)
+BuildRequires:	pkgconfig(libxfce4ui-2)
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-dict-plugin = %{version}
 Obsoletes:	xfce4-dict-plugin < 0.4.0

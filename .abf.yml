@@ -1,4 +1,5 @@
 removed_sources:
   xfce4-dict-0.6.0.tar.bz2: af004096d6bd935d69b7ef3a989470e89c7be99b
-sources:
   xfce4-dict-0.7.0.tar.bz2: 89bafc851c9169774efe97f246218d413bb521ba
+sources:
+  xfce4-dict-0.8.0.tar.bz2: 3031915feb81ef31c3609a2cf3817b55fa184d17
