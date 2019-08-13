@@ -3,7 +3,7 @@
 
 Summary: 	A dictionary support for Xfce
 Name: 		xfce4-dict
-Version: 	0.8.0
+Version:	0.8.2
 Release:	1
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
