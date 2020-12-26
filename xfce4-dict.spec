@@ -48,3 +48,4 @@ program.
 %{_datadir}/xfce4/panel/plugins/*.desktop
 %{_datadir}/applications/*.desktop
 %{_mandir}/man1/%{name}.*
+%{_iconsdir}/hicolor/*x*/apps/org.xfce.Dictionary.png
