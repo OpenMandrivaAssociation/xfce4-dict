@@ -4,7 +4,7 @@
 Summary: 	A dictionary support for Xfce
 Name: 		xfce4-dict
 Version:	0.8.4
-Release:	1
+Release:	2
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-dict/
