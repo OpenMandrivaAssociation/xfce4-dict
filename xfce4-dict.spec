@@ -7,7 +7,7 @@ Version:	0.8.6
 Release:	1
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/applications/xfce4-dict/
+URL:		https://goodies.xfce.org/projects/applications/xfce4-dict/
 Source0:	http://archive.xfce.org/src/apps/xfce4-dict/%{url_ver}/%{name}-%{version}.tar.bz2
 Patch1:		xfce4-dict-0.6.0-gold.patch
 Requires:	xfce4-panel >= 4.10
