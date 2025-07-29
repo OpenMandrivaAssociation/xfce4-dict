@@ -9,7 +9,7 @@ License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/applications/xfce4-dict/
 Source0:	http://archive.xfce.org/src/apps/xfce4-dict/%{url_ver}/%{name}-%{version}.tar.bz2
-Patch1:		xfce4-dict-0.6.0-gold.patch
+#Patch1:		xfce4-dict-0.6.0-gold.patch
 Requires:	xfce4-panel >= 4.10
 BuildRequires:	meson
 BuildRequires:	xfce4-panel-devel >= 4.10
