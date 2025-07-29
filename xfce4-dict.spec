@@ -11,6 +11,7 @@ URL:		https://goodies.xfce.org/projects/applications/xfce4-dict/
 Source0:	http://archive.xfce.org/src/apps/xfce4-dict/%{url_ver}/%{name}-%{version}.tar.bz2
 Patch1:		xfce4-dict-0.6.0-gold.patch
 Requires:	xfce4-panel >= 4.10
+BuildRequires:	meson
 BuildRequires:	xfce4-panel-devel >= 4.10
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(libxfce4ui-2)
@@ -28,15 +29,14 @@ opening a web browser or search for words using the aspell/ispell
 program.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%configure \
-	--disable-static
-%make_build
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %find_lang %{name}
 
